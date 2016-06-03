@@ -31,6 +31,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/technologies', {
+        templateUrl: 'views/technologies.html',
+        controller: 'TechnologiestCtrl',
+        controllerAs: 'technologies'
+      })
       .otherwise({
         redirectTo: '/'
       });
