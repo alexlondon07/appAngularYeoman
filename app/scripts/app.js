@@ -33,7 +33,7 @@ angular
       })
       .when('/technologies', {
         templateUrl: 'views/technologies.html',
-        controller: 'TechnologiestCtrl',
+        controller: 'TechnologiesCtrl',
         controllerAs: 'technologies'
       })
       .otherwise({

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "001",
+    "name": "PHP",
+    "logo": "direccion logo",
+    "type": [
+      "Backend"
+    ],
+    "frameworks": [
+      "Laravel",
+      "Yii"
+    ],
+  },
+  {
+    "id": "002",
+    "name": "JavaScritp",
+    "logo": "direccion logo",
+    "type": [
+      "Backend",
+      "Frontned",
+    ],
+    "frameworks": [
+      "AngularJS",
+      "BackboneJS"
+    ],
+  },
+  {
+    "id": "003",
+    "name": "Ruby",
+    "logo": "direccion logo",
+    "type": [
+      "Backend",
+      "Frontned",
+    ],
+    "frameworks": [
+      "RubyonRails"
+    ],
+  },
+]
