@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name appAngularYeomanApp.controller:TechnologiesCtrl
+ * @name appPortafolio.controller:TechnologiesCtrl
  * @description
  * # TechnologiesCtrl
- * Controller of the appAngularYeomanApp
+ * Controller of the appPortafolio
  */
-angular.module('appAngularYeomanApp')
+angular.module('appPortafolio')
   .controller('TechnologiesCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

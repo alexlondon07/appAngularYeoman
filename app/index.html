@@ -2,9 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <title>Alexander Londoño Espejo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Alexander Londoño Espejo Portfolio Personal">
+    <meta name="keywords" content="Alexander Londoño Espejo, Developer, Backend, Portfolio, PHP, Javascript, Laravel, Git, GitHub">
+    <meta name="author" content="Alexlondon07">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -14,8 +18,9 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+    <link rel="stylesheet" href="styles/app.css">
   </head>
-  <body ng-app="appAngularYeomanApp">
+  <body ng-app="appPortafolio">
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -32,15 +37,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-
-            <a class="navbar-brand" href="#/">Portafolio: Alexander Londoño Espejo</a>
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
-
             <ul class="nav navbar-nav">
               <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
+              <li><a ng-href="#/about">About me</a></li>
               <li><a ng-href="#/">Contact</a></li>
               <li><a ng-href="#/technologies">Technologies</a></li>
             </ul>
@@ -50,12 +52,20 @@
     </div>
 
     <div class="container">
-    <div ng-view=""></div>
+      <div ng-view="">
+        <!-- Aqui van todas mis vistas -->
+      </div>
     </div>
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p><span class="glyphicon glyphicon-list"></span> Dejame tu Comentario.</p>
+
+        <!-- Div de disqus -->
+        <div id="disqus_thread"></div>
+        <!-- Fin Div de disqus -->
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
       </div>
     </div>
 
@@ -89,6 +99,7 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
+        <script src="scripts/disqus.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/user.js"></script>

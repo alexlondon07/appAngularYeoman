@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name appAngularYeomanApp
+ * @name appPortafolio
  * @description
- * # appAngularYeomanApp
+ * # appPortafolio
  *
  * Main module of the application.
  */
 angular
-  .module('appAngularYeomanApp', [
+  .module('appPortafolio', [
     'ngAnimate',
     'ngAria',
     'ngCookies',

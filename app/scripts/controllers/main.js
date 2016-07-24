@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name appAngularYeomanApp.controller:MainCtrl
+ * @name appPortafolio.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the appAngularYeomanApp
+ * Controller of the appPortafolio
  */
-angular.module('appAngularYeomanApp')
+angular.module('appPortafolio')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
