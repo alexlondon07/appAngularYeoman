@@ -8,10 +8,10 @@
  * Controller of the appPortafolio
  */
 angular.module('appPortafolio')
-  .controller('TechnologiesCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('TechnologiesCtrl', function($scope, $http){
+
+      $http.get('../../techologies.json')
+      .then(function(res){
+         $scope.listTechnologies = res.data;
+      });
   });

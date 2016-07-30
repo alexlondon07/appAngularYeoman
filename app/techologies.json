@@ -1,39 +1,152 @@
-[
-  {
-    "id": "001",
-    "name": "PHP",
-    "logo": "direccion logo",
-    "type": [
-      "Backend"
-    ],
-    "frameworks": [
-      "Laravel",
-      "Yii"
-    ],
-  },
-  {
-    "id": "002",
-    "name": "JavaScritp",
-    "logo": "direccion logo",
-    "type": [
-      "Backend",
-      "Frontned",
-    ],
-    "frameworks": [
-      "AngularJS",
-      "BackboneJS"
-    ],
-  },
-  {
-    "id": "003",
-    "name": "Ruby",
-    "logo": "direccion logo",
-    "type": [
-      "Backend",
-      "Frontned",
-    ],
-    "frameworks": [
-      "RubyonRails"
-    ],
-  },
-]
+[{
+	"id": "001",
+	"name": "PHP",
+	"logo": "iconos/iconos-Php.png",
+	"type": [
+		"Backend"
+	]
+}, {
+	"id": "002",
+	"name": "JavaScritp",
+	"logo": "iconos/iconos-javaScript.png",
+	"type": [
+		"Backend",
+		"Frontned"
+	]
+}, {
+	"id": "003",
+	"name": "RubyonRails",
+	"logo": "iconos/iconos-rails.png",
+	"type": [
+		"Backend",
+		"Frontned"
+	]
+}, {
+	"id": "004",
+	"name": "Laravel",
+	"logo": "iconos/iconos-laravel.png",
+	"type": [
+		"Backend"
+	]
+}, {
+	"id": "005",
+	"name": "MySql",
+	"logo": "iconos/iconos-MySql.png",
+	"type": [
+		"Base de datos"
+	]
+}, {
+	"id": "006",
+	"name": "Github",
+	"logo": "iconos/iconos-Github.png",
+	"type": [
+		"Backend",
+		"Frontned"
+	]
+}, {
+	"id": "007",
+	"name": "Heroku",
+	"logo": "iconos/iconos-heroku.png",
+	"type": [
+		"Backend",
+		"Frontned"
+	]
+}, {
+	"id": "008",
+	"name": "Ajax",
+	"logo": "iconos/iconos-ajax.png",
+	"type": [
+		"Backend",
+		"Frontned"
+	]
+}, {
+	"id": "008",
+	"name": "Html5",
+	"logo": "iconos/iconos-html5.png",
+	"type": [
+		"Backend",
+		"Frontned"
+	]
+}, {
+	"id": "009",
+	"name": "Boostrap",
+	"logo": "iconos/iconos-bootstrap.png",
+	"type": [
+		"Backend",
+		"Frontned"
+	]
+}, {
+	"id": "010",
+	"name": "AngularJs",
+	"logo": "iconos/iconos-angular.png",
+	"type": [
+		"Backend",
+		"Frontned"
+	]
+}, {
+	"id": "011",
+	"name": "MeanJS",
+	"logo": "iconos/iconos-mean.png",
+	"type": [
+		"Backend",
+		"Frontned"
+	]
+}, {
+	"id": "012",
+	"name": "Yeoman",
+	"logo": "iconos/iconos-mean.png",
+	"type": [
+		"Backend",
+		"Frontned"
+	]
+}, {
+	"id": "013",
+	"name": "Jquery",
+	"logo": "iconos/iconos-Jquery.png",
+	"type": [
+		"Frontned"
+	]
+}, {
+	"id": "013",
+	"name": "Jquery",
+	"logo": "iconos/iconos-Jquery.png",
+	"type": [
+		"Frontned"
+	]
+}, {
+	"id": "014",
+	"name": "Firebase",
+	"logo": "iconos/iconos-firebase.png",
+	"type": [
+		"Base de datos"
+	]
+}, {
+	"id": "015",
+	"name": "Css",
+	"logo": "iconos/iconos-css.png",
+	"type": [
+		"Frontned",
+		"Css"
+	]
+}, {
+	"id": "016",
+	"name": "Csharp",
+	"logo": "iconos/iconos-csharp.png",
+	"type": [
+		"Backend"
+	]
+}, {
+	"id": "017",
+	"name": "NodeJS",
+	"logo": "iconos/iconos-nodejs.png",
+	"type": [
+		"Backend"
+	]
+}, {
+	"id": "018",
+	"name": "PostgreSQL",
+	"logo": "iconos/iconos-Post.png",
+	"type": [
+		"Base de datos"
+	]
+}]
