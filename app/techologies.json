@@ -107,13 +107,6 @@
 		"Frontned"
 	]
 }, {
-	"id": "013",
-	"name": "Jquery",
-	"logo": "iconos/iconos-Jquery.png",
-	"type": [
-		"Frontned"
-	]
-}, {
 	"id": "014",
 	"name": "Firebase",
 	"logo": "iconos/iconos-firebase.png",
