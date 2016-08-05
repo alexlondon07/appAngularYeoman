@@ -8,6 +8,13 @@
 body {
   padding: 0;
 }
+h1,h2,h3,h4,h5{
+  color: #0077B5;
+}
+
+.name{
+  color: white;
+}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -59,6 +66,14 @@ body {
   margin-top: 28px;
 }
 
+.navbar-default{
+  margin-bottom: 0px;
+  /*background-color: #0077B5;*/
+}
+/*.navbar-default .navbar-nav > li > a {
+  color: red;
+}*/
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -74,7 +89,7 @@ body {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {

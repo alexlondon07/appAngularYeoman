@@ -94,7 +94,7 @@
 }, {
 	"id": "012",
 	"name": "Yeoman",
-	"logo": "iconos/iconos-mean.png",
+	"logo": "iconos/iconos-yeoman.png",
 	"type": [
 		"Backend",
 		"Frontned"
