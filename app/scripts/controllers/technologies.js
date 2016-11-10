@@ -9,7 +9,7 @@
  */
 angular.module('appPortafolio')
   .controller('TechnologiesCtrl', function($scope, $http){
-
+      //We use the information that we have in the Json, to show worked technologies
       $http.get('../../techologies.json')
       .then(function(res){
          $scope.listTechnologies = res.data;
